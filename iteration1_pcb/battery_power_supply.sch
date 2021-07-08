@@ -104,7 +104,7 @@ F 3 "~" H 4150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4150 3750 0    50   ~ 0
-VIN
+EN
 Text Label 4150 4050 0    50   ~ 0
 GND
 Wire Wire Line

@@ -387,197 +387,186 @@ Text HLabel 1600 4750 0    50   Input ~ 0
 VBATT
 Text HLabel 1600 4925 0    50   Input ~ 0
 GND
-Text HLabel 1600 5100 0    50   Input ~ 0
-VCHRG
+Text HLabel 1625 5225 0    50   Input ~ 0
+CAP_SENSE
 Text Label 1600 4750 0    50   ~ 0
 VIN
 Text Label 1600 4925 0    50   ~ 0
 GND
-Text Label 1600 5100 0    50   ~ 0
-48V
+Text Label 1625 5225 0    50   ~ 0
+CAP_SENSE
 $Comp
 L Device:C C?
 U 1 1 60CF92B2
-P 7700 1700
-F 0 "C?" H 7815 1746 50  0000 L CNN
-F 1 "6800u" H 7815 1655 50  0000 L CNN
-F 2 "" H 7738 1550 50  0001 C CNN
-F 3 "~" H 7700 1700 50  0001 C CNN
-	1    7700 1700
+P 8050 2300
+F 0 "C?" H 8165 2346 50  0000 L CNN
+F 1 "6800u" H 8165 2255 50  0000 L CNN
+F 2 "" H 8088 2150 50  0001 C CNN
+F 3 "~" H 8050 2300 50  0001 C CNN
+	1    8050 2300
 	1    0    0    -1  
 $EndComp
-Text Label 7600 1225 2    50   ~ 0
+Text Label 6400 2200 2    50   ~ 0
 48V
-Text Label 7700 1950 0    50   ~ 0
+Text Label 8050 2550 0    50   ~ 0
 GND
 Wire Wire Line
-	7700 1950 7700 1850
+	8050 2550 8050 2450
 Wire Wire Line
-	7700 1550 7700 1450
-$Comp
-L Device:R R?
-U 1 1 60CFB581
-P 7750 1225
-F 0 "R?" V 7543 1225 50  0000 C CNN
-F 1 "100" V 7634 1225 50  0000 C CNN
-F 2 "" V 7680 1225 50  0001 C CNN
-F 3 "~" H 7750 1225 50  0001 C CNN
-	1    7750 1225
-	0    1    1    0   
-$EndComp
-Text Label 7900 1225 0    50   ~ 0
+	8050 2150 8050 2050
+Text Label 7400 2200 0    50   ~ 0
 CAP_HIGH
-Text Label 7700 1450 0    50   ~ 0
+Text Label 8050 2050 0    50   ~ 0
 CAP_HIGH
 $Comp
 L Device:R R?
 U 1 1 60D50A0F
-P 9600 2000
-F 0 "R?" H 9670 2046 50  0000 L CNN
-F 1 "10k" H 9670 1955 50  0000 L CNN
-F 2 "" V 9530 2000 50  0001 C CNN
-F 3 "~" H 9600 2000 50  0001 C CNN
-	1    9600 2000
+P 9375 2025
+F 0 "R?" H 9445 2071 50  0000 L CNN
+F 1 "10k" H 9445 1980 50  0000 L CNN
+F 2 "" V 9305 2025 50  0001 C CNN
+F 3 "~" H 9375 2025 50  0001 C CNN
+	1    9375 2025
 	1    0    0    -1  
 $EndComp
-Text Label 9600 1700 0    50   ~ 0
+Text Label 9375 1725 0    50   ~ 0
 CAP_HIGH
 Wire Wire Line
-	9600 1700 9600 1850
+	9375 1725 9375 1875
 Wire Wire Line
-	9600 2150 9600 2250
-Text Label 9600 2750 0    50   ~ 0
+	9375 2175 9375 2275
+Text Label 9375 2775 0    50   ~ 0
 GND
 Wire Wire Line
-	9600 2750 9600 2650
-Text Label 9300 2450 2    50   ~ 0
+	9375 2775 9375 2675
+Text Label 9075 2475 2    50   ~ 0
 CAP_DCHG
 $Comp
 L symbols:MIC4127YME-TR U?
 U 1 1 60D5BE96
-P 6025 3575
-F 0 "U?" H 7125 3963 60  0000 C CNN
-F 1 "MIC4127YME-TR" H 7125 3857 60  0000 C CNN
-F 2 "SOIC-8_ME_MCH" H 7125 3815 60  0001 C CNN
-F 3 "" H 6025 3575 60  0000 C CNN
-	1    6025 3575
+P 6425 3875
+F 0 "U?" H 7525 4263 60  0000 C CNN
+F 1 "MIC4127YME-TR" H 7525 4157 60  0000 C CNN
+F 2 "SOIC-8_ME_MCH" H 7525 4115 60  0001 C CNN
+F 3 "" H 6425 3875 60  0000 C CNN
+	1    6425 3875
 	1    0    0    -1  
 $EndComp
 $Comp
 L symbols:BSS138PW_115 Q?
 U 1 1 60D5FCA2
-P 9300 2450
-F 0 "Q?" H 9750 2600 60  0000 L CNN
-F 1 "BSS138PW_115" H 9800 2400 60  0000 L CNN
-F 2 "SC-70_SOT323_NEX" H 10245 2640 60  0001 C CNN
-F 3 "" H 9300 2450 60  0000 C CNN
-	1    9300 2450
+P 9075 2475
+F 0 "Q?" H 9525 2625 60  0000 L CNN
+F 1 "BSS138PW_115" H 9575 2425 60  0000 L CNN
+F 2 "SC-70_SOT323_NEX" H 10020 2665 60  0001 C CNN
+F 3 "" H 9075 2475 60  0000 C CNN
+	1    9075 2475
 	1    0    0    -1  
 $EndComp
 $Comp
 L symbols:STL36DN6F7 Q?
 U 1 1 60D48FB6
-P 9425 3875
-F 0 "Q?" H 9925 4125 50  0000 L CNN
-F 1 "STL36DN6F7" H 9925 4025 50  0000 L CNN
-F 2 "" H 9375 3975 50  0001 C CNN
-F 3 "~" H 9175 3875 50  0001 C CNN
-	1    9425 3875
+P 8000 5350
+F 0 "Q?" H 8500 5600 50  0000 L CNN
+F 1 "STL36DN6F7" H 8500 5500 50  0000 L CNN
+F 2 "" H 7950 5450 50  0001 C CNN
+F 3 "~" H 7750 5350 50  0001 C CNN
+	1    8000 5350
 	1    0    0    -1  
 $EndComp
-Text Label 8225 3875 0    50   ~ 0
+Text Label 8625 4175 0    50   ~ 0
 VIN
 $Comp
 L Device:C_Small C?
 U 1 1 60D4BAD4
-P 7575 4525
-F 0 "C?" H 7667 4571 50  0000 L CNN
-F 1 "0.1u" H 7667 4480 50  0000 L CNN
-F 2 "" H 7575 4525 50  0001 C CNN
-F 3 "~" H 7575 4525 50  0001 C CNN
-	1    7575 4525
+P 9375 3925
+F 0 "C?" H 9467 3971 50  0000 L CNN
+F 1 "0.1u" H 9467 3880 50  0000 L CNN
+F 2 "" H 9375 3925 50  0001 C CNN
+F 3 "~" H 9375 3925 50  0001 C CNN
+	1    9375 3925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 60D4C32E
-P 7925 4525
-F 0 "C?" H 8017 4571 50  0000 L CNN
-F 1 "1u" H 8017 4480 50  0000 L CNN
-F 2 "" H 7925 4525 50  0001 C CNN
-F 3 "~" H 7925 4525 50  0001 C CNN
-	1    7925 4525
+P 9725 3925
+F 0 "C?" H 9817 3971 50  0000 L CNN
+F 1 "1u" H 9817 3880 50  0000 L CNN
+F 2 "" H 9725 3925 50  0001 C CNN
+F 3 "~" H 9725 3925 50  0001 C CNN
+	1    9725 3925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 60D4CA04
-P 7225 4525
-F 0 "C?" H 7317 4571 50  0000 L CNN
-F 1 "0.1u" H 7317 4480 50  0000 L CNN
-F 2 "" H 7225 4525 50  0001 C CNN
-F 3 "~" H 7225 4525 50  0001 C CNN
-	1    7225 4525
+P 9025 3925
+F 0 "C?" H 9117 3971 50  0000 L CNN
+F 1 "0.1u" H 9117 3880 50  0000 L CNN
+F 2 "" H 9025 3925 50  0001 C CNN
+F 3 "~" H 9025 3925 50  0001 C CNN
+	1    9025 3925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7225 4425 7575 4425
-Connection ~ 7575 4425
+	9025 3825 9375 3825
+Connection ~ 9375 3825
 Wire Wire Line
-	7575 4425 7925 4425
+	9375 3825 9725 3825
 Wire Wire Line
-	7225 4625 7575 4625
-Connection ~ 7575 4625
+	9025 4025 9375 4025
+Connection ~ 9375 4025
 Wire Wire Line
-	7575 4625 7925 4625
-Text Label 7575 4325 0    50   ~ 0
+	9375 4025 9725 4025
+Text Label 9375 3725 0    50   ~ 0
 VIN
 Wire Wire Line
-	7575 4325 7575 4425
-Text Label 7575 4825 0    50   ~ 0
+	9375 3725 9375 3825
+Text Label 9375 4225 0    50   ~ 0
 GND
 Wire Wire Line
-	7575 4625 7575 4825
-Text Label 6025 3775 2    50   ~ 0
+	9375 4025 9375 4225
+Text Label 6425 4075 2    50   ~ 0
 GND
-Text Label 8225 3575 0    50   ~ 0
+Text Label 8625 3875 0    50   ~ 0
 GND
-Text Label 8225 3775 0    50   ~ 0
+Text Label 8625 4075 0    50   ~ 0
 OUTA
-Text Label 8225 3975 0    50   ~ 0
+Text Label 8625 4275 0    50   ~ 0
 OUTB
-Text Label 8975 3875 2    50   ~ 0
+Text Label 7550 5350 2    50   ~ 0
 OUTA
-Text Label 9875 3875 0    50   ~ 0
+Text Label 8450 5350 0    50   ~ 0
 OUTB
-Text Label 9425 4225 0    50   ~ 0
+Text Label 8000 5700 0    50   ~ 0
 GND
 Wire Wire Line
-	9275 4075 9425 4075
+	7850 5550 8000 5550
 Wire Wire Line
-	9425 4075 9425 4225
-Connection ~ 9425 4075
+	8000 5550 8000 5700
+Connection ~ 8000 5550
 Wire Wire Line
-	9425 4075 9575 4075
-Text Label 9275 3575 0    50   ~ 0
+	8000 5550 8150 5550
+Text Label 7850 5050 0    50   ~ 0
 FET_A
 Wire Wire Line
-	9275 3575 9275 3675
-Text Label 9575 3575 0    50   ~ 0
+	7850 5050 7850 5150
+Text Label 8150 5050 0    50   ~ 0
 FET_B
 Wire Wire Line
-	9575 3575 9575 3675
-Text Label 6025 3675 2    50   ~ 0
+	8150 5050 8150 5150
+Text Label 6425 3975 2    50   ~ 0
 PYRO_A
-Text Label 6025 3875 2    50   ~ 0
+Text Label 6425 4175 2    50   ~ 0
 PYRO_B
-Text HLabel 1600 5300 0    50   Input ~ 0
+Text HLabel 1625 5600 0    50   Input ~ 0
 PYRO_A
-Text HLabel 1600 5450 0    50   Input ~ 0
+Text HLabel 1625 5750 0    50   Input ~ 0
 PYRO_B
-Text Label 1600 5300 0    50   ~ 0
+Text Label 1625 5600 0    50   ~ 0
 PYRO_A
-Text Label 1600 5450 0    50   ~ 0
+Text Label 1625 5750 0    50   ~ 0
 PYRO_B
 $Comp
 L Connector:Screw_Terminal_01x01 J?
@@ -631,8 +620,184 @@ Text Label 9200 4625 2    50   ~ 0
 48V
 Text Label 9200 5175 2    50   ~ 0
 48V
-Text HLabel 1600 5625 0    50   Input ~ 0
+Text HLabel 1625 5400 0    50   Input ~ 0
 CAP_DCHG
-Text Label 1600 5625 0    50   ~ 0
+Text Label 1625 5400 0    50   ~ 0
 CAP_DCHG
+Text Label 1625 5950 0    50   ~ 0
+PY_SENSE_A
+Text Label 1625 6150 0    50   ~ 0
+PY_SENSE_B
+Text HLabel 1625 5950 0    50   Input ~ 0
+PY_SENSE_A
+Text HLabel 1625 6150 0    50   Input ~ 0
+PY_SENSE_B
+$Comp
+L Device:R_Small R?
+U 1 1 60D5D646
+P 6650 5150
+F 0 "R?" H 6709 5196 50  0000 L CNN
+F 1 "120k" H 6709 5105 50  0000 L CNN
+F 2 "" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60D5DDFA
+P 6650 5525
+F 0 "R?" H 6709 5571 50  0000 L CNN
+F 1 "8.2k" H 6709 5480 50  0000 L CNN
+F 2 "" H 6650 5525 50  0001 C CNN
+F 3 "~" H 6650 5525 50  0001 C CNN
+	1    6650 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5250 6650 5350
+Text Label 6650 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	6650 5800 6650 5625
+Text Label 6650 4975 0    50   ~ 0
+FET_B
+Wire Wire Line
+	6650 4975 6650 5050
+Text Label 6725 5350 0    50   ~ 0
+PY_SENSE_B
+Wire Wire Line
+	6725 5350 6650 5350
+Connection ~ 6650 5350
+Wire Wire Line
+	6650 5350 6650 5425
+Wire Wire Line
+	6000 5800 6000 5625
+Text Label 6000 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	6000 5350 6000 5425
+Connection ~ 6000 5350
+Wire Wire Line
+	6075 5350 6000 5350
+Text Label 6075 5350 0    50   ~ 0
+PY_SENSE_A
+Wire Wire Line
+	6000 4975 6000 5050
+Text Label 6000 4975 0    50   ~ 0
+FET_A
+Wire Wire Line
+	6000 5250 6000 5350
+$Comp
+L Device:R_Small R?
+U 1 1 60D5E75C
+P 6000 5525
+F 0 "R?" H 6059 5571 50  0000 L CNN
+F 1 "8.2k" H 6059 5480 50  0000 L CNN
+F 2 "" H 6000 5525 50  0001 C CNN
+F 3 "~" H 6000 5525 50  0001 C CNN
+	1    6000 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60D5E2C8
+P 6000 5150
+F 0 "R?" H 6059 5196 50  0000 L CNN
+F 1 "120k" H 6059 5105 50  0000 L CNN
+F 2 "" H 6000 5150 50  0001 C CNN
+F 3 "~" H 6000 5150 50  0001 C CNN
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60D8653B
+P 2150 2850
+AR Path="/60C5E9F6/60D8653B" Ref="R?"  Part="1" 
+AR Path="/60C5ED9B/60D8653B" Ref="R?"  Part="1" 
+F 0 "R?" H 2209 2896 50  0000 L CNN
+F 1 "665k" H 2209 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2150 2850 50  0001 C CNN
+F 3 "~" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+Text Label 2150 2750 0    50   ~ 0
+VIN
+Text Label 2150 3050 0    50   ~ 0
+EN
+Wire Wire Line
+	2150 2950 2150 3050
+$Comp
+L Device:R_Small R?
+U 1 1 60D86544
+P 2150 3300
+AR Path="/60C5E9F6/60D86544" Ref="R?"  Part="1" 
+AR Path="/60C5ED9B/60D86544" Ref="R?"  Part="1" 
+F 0 "R?" H 2209 3346 50  0000 L CNN
+F 1 "200k" H 2209 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2150 3300 50  0001 C CNN
+F 3 "~" H 2150 3300 50  0001 C CNN
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3500 0    50   ~ 0
+GND
+Wire Wire Line
+	2150 3400 2150 3500
+Text Label 2150 3200 0    50   ~ 0
+EN
+$Comp
+L symbols:PFC10 R?
+U 1 1 60D8DE73
+P 6900 2200
+F 0 "R?" H 6900 2567 50  0000 C CNN
+F 1 "PFC10_100R" H 6900 2476 50  0000 C CNN
+F 2 "RES_PFC10" H 6675 1800 50  0001 L BNN
+F 3 "" H 6900 2200 50  0001 L BNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2400 0    50   ~ 0
+GND
+Wire Wire Line
+	5250 5800 5250 5625
+Text Label 5250 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	5250 5350 5250 5425
+Connection ~ 5250 5350
+Wire Wire Line
+	5325 5350 5250 5350
+Text Label 5325 5350 0    50   ~ 0
+CAP_SENSE
+Wire Wire Line
+	5250 4975 5250 5050
+Text Label 5250 4975 0    50   ~ 0
+CAP_HIGH
+Wire Wire Line
+	5250 5250 5250 5350
+$Comp
+L Device:R_Small R?
+U 1 1 60E051D9
+P 5250 5525
+F 0 "R?" H 5309 5571 50  0000 L CNN
+F 1 "8.2k" H 5309 5480 50  0000 L CNN
+F 2 "" H 5250 5525 50  0001 C CNN
+F 3 "~" H 5250 5525 50  0001 C CNN
+	1    5250 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60E051DF
+P 5250 5150
+F 0 "R?" H 5309 5196 50  0000 L CNN
+F 1 "120k" H 5309 5105 50  0000 L CNN
+F 2 "" H 5250 5150 50  0001 C CNN
+F 3 "~" H 5250 5150 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
