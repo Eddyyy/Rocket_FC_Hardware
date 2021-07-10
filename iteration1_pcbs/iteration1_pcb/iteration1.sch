@@ -897,21 +897,21 @@ Wire Wire Line
 	7425 2375 7550 2375
 Text Label 3600 4050 0    50   ~ 0
 CAP_SENSE
-Text Label 7975 3150 2    50   ~ 0
+Text Label 9900 4200 2    50   ~ 0
 RX1
-Text Label 7975 3250 2    50   ~ 0
+Text Label 9900 4300 2    50   ~ 0
 TX1
-Text Label 7975 3350 2    50   ~ 0
+Text Label 9900 4400 2    50   ~ 0
 CTS1
-Text Label 7975 3450 2    50   ~ 0
+Text Label 9900 4500 2    50   ~ 0
 RTS1
-Text Label 7975 3675 2    50   ~ 0
+Text Label 9900 5300 2    50   ~ 0
 RX2
-Text Label 7975 3775 2    50   ~ 0
+Text Label 9900 5200 2    50   ~ 0
 TX2
-Text Label 7975 3975 2    50   ~ 0
+Text Label 9900 5100 2    50   ~ 0
 SDA1
-Text Label 7975 3875 2    50   ~ 0
+Text Label 9900 5000 2    50   ~ 0
 SCL1
 $Comp
 L Device:R_Small R?
@@ -964,12 +964,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 60E50C93
-P 7675 3600
-F 0 "#PWR?" H 7675 3350 50  0001 C CNN
-F 1 "GND" H 7680 3427 50  0000 C CNN
-F 2 "" H 7675 3600 50  0001 C CNN
-F 3 "" H 7675 3600 50  0001 C CNN
-	1    7675 3600
+P 9700 4700
+F 0 "#PWR?" H 9700 4450 50  0001 C CNN
+F 1 "GND" H 9705 4527 50  0000 C CNN
+F 2 "" H 9700 4700 50  0001 C CNN
+F 3 "" H 9700 4700 50  0001 C CNN
+	1    9700 4700
 	1    0    0    -1  
 $EndComp
 Text Label 1400 2350 2    50   ~ 0
@@ -983,12 +983,37 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR?
 U 1 1 60E63803
-P 7675 3475
-F 0 "#PWR?" H 7675 3325 50  0001 C CNN
-F 1 "VCC" H 7690 3648 50  0000 C CNN
-F 2 "" H 7675 3475 50  0001 C CNN
-F 3 "" H 7675 3475 50  0001 C CNN
-	1    7675 3475
+P 9550 4600
+F 0 "#PWR?" H 9550 4450 50  0001 C CNN
+F 1 "VCC" H 9565 4773 50  0000 C CNN
+F 2 "" H 9550 4600 50  0001 C CNN
+F 3 "" H 9550 4600 50  0001 C CNN
+	1    9550 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L symbols:AYF531235 J?
+U 1 1 60E7C415
+P 9900 4200
+F 0 "J?" H 10428 3703 60  0000 L CNN
+F 1 "AYF531235" H 10428 3597 60  0000 L CNN
+F 2 "CONN_AYF531235_PAN" H 10175 4365 60  0001 C CNN
+F 3 "" H 9900 4200 60  0000 C CNN
+	1    9900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4600 9900 4600
+Wire Wire Line
+	9700 4700 9900 4700
+Wire Wire Line
+	9900 4700 9900 4800
+Connection ~ 9900 4700
+Wire Wire Line
+	9550 4600 9550 4900
+Wire Wire Line
+	9550 4900 9900 4900
+Connection ~ 9550 4600
+Text Notes 9575 5600 0    50   ~ 0
+GPS and Telemetry Flat Flex
 $EndSCHEMATC
