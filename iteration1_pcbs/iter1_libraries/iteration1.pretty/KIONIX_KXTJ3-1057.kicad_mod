@@ -1,4 +1,4 @@
-(module KIONIX_KXTJ3-1057 (layer F.Cu) (tedit 60D7C210)
+(module KIONIX_KXTJ3-1057 (layer F.Cu) (tedit 60EA6F56)
   (fp_text reference REF** (at -0.1 -1.6) (layer F.SilkS)
     (effects (font (size 0.32 0.32) (thickness 0.15)))
   )
@@ -37,7 +37,7 @@
   (pad 10 smd rect (at 0.7625 -0.75) (size 0.275 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at 0.25 -0.7625) (size 0.25 0.275) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at -0.25 -0.7625) (size 0.25 0.275) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/iter1_libraries/iteration1.packages3D/KIONIX_KXTJ3-1057.step
+  (model ${KIPRJMOD}/../iter1_libraries/iteration1.packages3D/KIONIX_KXTJ3-1057.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

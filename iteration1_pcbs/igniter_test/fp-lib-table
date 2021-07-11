@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name iteration1)(type KiCad)(uri ../iter1_libraries/iteration1.pretty)(options "")(descr ""))
+  (lib (name iteration1)(type KiCad)(uri ${KIPRJMOD}/../iter1_libraries/iteration1.pretty)(options "")(descr ""))
   (lib (name teensy)(type KiCad)(uri C:/Users/myfoo/Documents/kiCad_Libraries/teensy.pretty)(options "")(descr ""))
 )

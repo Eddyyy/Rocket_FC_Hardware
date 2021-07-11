@@ -1,0 +1,805 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3750 1550 0    50   ~ 0
+SW
+Text Label 3350 850  1    50   ~ 0
+SW
+Text Label 3250 850  1    50   ~ 0
+SW
+$Comp
+L symbols:SK220ATR D1
+U 1 1 60C698D5
+P 4800 1800
+F 0 "D1" H 5100 1533 50  0000 C CNN
+F 1 "SK220ATR" H 5100 1624 50  0000 C CNN
+F 2 "iteration1:SK220ATR" H 5050 1500 50  0001 L CNN
+F 3 "http://www.smc-diodes.com/propdf/SK220A%20N0942%20REV.B.pdf" H 5050 1400 50  0001 L CNN
+	1    4800 1800
+	-1   0    0    1   
+$EndComp
+Text Label 4200 1800 2    50   ~ 0
+SW
+$Comp
+L Device:L L1
+U 1 1 60C69A49
+P 4450 1375
+F 0 "L1" V 4640 1375 50  0000 C CNN
+F 1 "15.4u" V 4549 1375 50  0000 C CNN
+F 2 "" H 4450 1375 50  0001 C CNN
+F 3 "~" H 4450 1375 50  0001 C CNN
+	1    4450 1375
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 1375 0    50   ~ 0
+SW
+$Comp
+L Device:C_Small C7
+U 1 1 60C69D5B
+P 2100 1275
+F 0 "C7" H 2192 1321 50  0000 L CNN
+F 1 "2.2u" H 2192 1230 50  0000 L CNN
+F 2 "" H 2100 1275 50  0001 C CNN
+F 3 "~" H 2100 1275 50  0001 C CNN
+	1    2100 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60C69E1B
+P 1725 1275
+F 0 "C5" H 1817 1321 50  0000 L CNN
+F 1 "100n" H 1817 1230 50  0000 L CNN
+F 2 "" H 1725 1275 50  0001 C CNN
+F 3 "~" H 1725 1275 50  0001 C CNN
+	1    1725 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:LM51571QRTERQ1 IC1
+U 1 1 60C69FF9
+P 2550 1550
+F 0 "IC1" H 3775 2250 50  0000 L CNN
+F 1 "LM51571QRTERQ1" H 3775 2150 50  0000 L CNN
+F 2 "iteration1:LM51571QRTERQ1" H 4100 2100 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm51571-q1.pdf?ts=1617256844020&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLM51571QRTERQ1" H 4100 2000 50  0001 L CNN
+F 4 "0.8" H 3600 1750 50  0001 L CNN "Height"
+	1    2550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60C89E3F
+P 750 1275
+F 0 "C1" H 842 1321 50  0000 L CNN
+F 1 "4.7u" H 842 1230 50  0000 L CNN
+F 2 "" H 750 1275 50  0001 C CNN
+F 3 "~" H 750 1275 50  0001 C CNN
+	1    750  1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60C89EE1
+P 1125 1275
+F 0 "C2" H 1217 1321 50  0000 L CNN
+F 1 "4.7u" H 1217 1230 50  0000 L CNN
+F 2 "" H 1125 1275 50  0001 C CNN
+F 3 "~" H 1125 1275 50  0001 C CNN
+	1    1125 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 60C89F86
+P 1125 2375
+F 0 "C3" H 1217 2421 50  0000 L CNN
+F 1 "68n" H 1217 2330 50  0000 L CNN
+F 2 "" H 1125 2375 50  0001 C CNN
+F 3 "~" H 1125 2375 50  0001 C CNN
+	1    1125 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60C8A07A
+P 1475 2375
+F 0 "C4" H 1567 2421 50  0000 L CNN
+F 1 "330p" H 1567 2330 50  0000 L CNN
+F 2 "" H 1475 2375 50  0001 C CNN
+F 3 "~" H 1475 2375 50  0001 C CNN
+	1    1475 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 60C8A0FA
+P 1875 2275
+F 0 "C6" H 1967 2321 50  0000 L CNN
+F 1 "27n" H 1967 2230 50  0000 L CNN
+F 2 "" H 1875 2275 50  0001 C CNN
+F 3 "~" H 1875 2275 50  0001 C CNN
+	1    1875 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60C8A218
+P 750 2375
+F 0 "R1" H 809 2421 50  0000 L CNN
+F 1 "60.4k" H 809 2330 50  0000 L CNN
+F 2 "" H 750 2375 50  0001 C CNN
+F 3 "~" H 750 2375 50  0001 C CNN
+	1    750  2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60C8A314
+P 1875 2475
+F 0 "R2" H 1934 2521 50  0000 L CNN
+F 1 "1.18k" H 1934 2430 50  0000 L CNN
+F 2 "" H 1875 2475 50  0001 C CNN
+F 3 "~" H 1875 2475 50  0001 C CNN
+	1    1875 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60C8A45E
+P 4475 2500
+F 0 "R5" H 4534 2546 50  0000 L CNN
+F 1 "118k" H 4534 2455 50  0000 L CNN
+F 2 "" H 4475 2500 50  0001 C CNN
+F 3 "~" H 4475 2500 50  0001 C CNN
+	1    4475 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 60C8A4AD
+P 4475 2800
+F 0 "R6" H 4534 2846 50  0000 L CNN
+F 1 "2.49k" H 4534 2755 50  0000 L CNN
+F 2 "" H 4475 2800 50  0001 C CNN
+F 3 "~" H 4475 2800 50  0001 C CNN
+	1    4475 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 60C8A520
+P 5125 1325
+F 0 "C8" H 5217 1371 50  0000 L CNN
+F 1 "3.3u" H 5217 1280 50  0000 L CNN
+F 2 "" H 5125 1325 50  0001 C CNN
+F 3 "~" H 5125 1325 50  0001 C CNN
+	1    5125 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 60C8A5AB
+P 5500 1325
+F 0 "C9" H 5592 1371 50  0000 L CNN
+F 1 "3.3u" H 5592 1280 50  0000 L CNN
+F 2 "" H 5500 1325 50  0001 C CNN
+F 3 "~" H 5500 1325 50  0001 C CNN
+	1    5500 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60C8A611
+P 5850 1325
+F 0 "C10" H 5942 1371 50  0000 L CNN
+F 1 "3.3u" H 5942 1280 50  0000 L CNN
+F 2 "" H 5850 1325 50  0001 C CNN
+F 3 "~" H 5850 1325 50  0001 C CNN
+	1    5850 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 60C8A66E
+P 6300 1325
+F 0 "C11" H 6392 1371 50  0000 L CNN
+F 1 "100n" H 6392 1280 50  0000 L CNN
+F 2 "" H 6300 1325 50  0001 C CNN
+F 3 "~" H 6300 1325 50  0001 C CNN
+	1    6300 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2650 4275 2650
+Text Label 4275 2650 2    50   ~ 0
+FB
+Text Label 3750 1850 0    50   ~ 0
+FB
+Wire Wire Line
+	4475 2600 4475 2650
+Connection ~ 4475 2650
+Wire Wire Line
+	4475 2650 4475 2700
+Wire Wire Line
+	5125 1425 5500 1425
+Connection ~ 5500 1425
+Wire Wire Line
+	5500 1425 5675 1425
+Connection ~ 5850 1425
+Wire Wire Line
+	5850 1425 6300 1425
+Wire Wire Line
+	5125 1225 5500 1225
+Connection ~ 5500 1225
+Wire Wire Line
+	5500 1225 5675 1225
+Connection ~ 5850 1225
+Wire Wire Line
+	5850 1225 6300 1225
+Text Label 5675 1625 0    50   ~ 0
+GND
+Wire Wire Line
+	5675 1625 5675 1425
+Connection ~ 5675 1425
+Wire Wire Line
+	5675 1425 5850 1425
+Wire Wire Line
+	5675 1225 5675 1075
+Connection ~ 5675 1225
+Wire Wire Line
+	5675 1225 5850 1225
+Text Label 5675 1075 0    50   ~ 0
+48V
+Text Label 4800 1800 0    50   ~ 0
+48V
+Text Label 4475 2325 0    50   ~ 0
+48V
+Wire Wire Line
+	4475 2325 4475 2400
+Wire Wire Line
+	4475 3000 4475 2900
+Text Label 4475 3000 0    50   ~ 0
+GND
+Text Label 3050 850  1    50   ~ 0
+GND
+Text Label 2950 850  1    50   ~ 0
+GND
+Text Label 2550 1550 2    50   ~ 0
+GND
+Text Label 3150 2850 3    50   ~ 0
+GND
+Text Label 3250 2850 3    50   ~ 0
+COMP
+Wire Wire Line
+	1475 2275 1475 2175
+Wire Wire Line
+	1475 2175 1700 2175
+Text Label 1700 2050 0    50   ~ 0
+COMP
+Wire Wire Line
+	1700 2050 1700 2175
+Connection ~ 1700 2175
+Wire Wire Line
+	1700 2175 1875 2175
+Wire Wire Line
+	1475 2475 1475 2575
+Wire Wire Line
+	1475 2575 1700 2575
+Text Label 1700 2725 0    50   ~ 0
+GND
+Wire Wire Line
+	1700 2725 1700 2575
+Connection ~ 1700 2575
+Wire Wire Line
+	1700 2575 1875 2575
+Text Label 2950 2850 3    50   ~ 0
+RT
+Text Label 750  2200 0    50   ~ 0
+RT
+Wire Wire Line
+	750  2200 750  2275
+Text Label 750  2600 0    50   ~ 0
+GND
+Wire Wire Line
+	750  2475 750  2600
+Text Label 3750 1650 0    50   ~ 0
+GND
+Text Label 3750 1750 0    50   ~ 0
+SS
+Text Label 1125 2200 0    50   ~ 0
+SS
+Wire Wire Line
+	1125 2200 1125 2275
+Wire Wire Line
+	1125 2600 1125 2475
+Text Label 1125 2600 0    50   ~ 0
+GND
+Text Label 4300 1375 2    50   ~ 0
+VIN
+Text Label 950  1025 0    50   ~ 0
+VIN
+Wire Wire Line
+	950  1025 950  1175
+Wire Wire Line
+	950  1175 1125 1175
+Wire Wire Line
+	950  1175 750  1175
+Connection ~ 950  1175
+Wire Wire Line
+	750  1375 950  1375
+Text Label 950  1500 0    50   ~ 0
+GND
+Wire Wire Line
+	950  1500 950  1375
+Connection ~ 950  1375
+Wire Wire Line
+	950  1375 1125 1375
+Text Label 2550 1650 2    50   ~ 0
+VCC
+Text Label 2100 1075 0    50   ~ 0
+VCC
+Wire Wire Line
+	2100 1075 2100 1175
+Text Label 1925 1500 0    50   ~ 0
+GND
+Wire Wire Line
+	1925 1500 1925 1375
+Wire Wire Line
+	1725 1375 1925 1375
+Connection ~ 1925 1375
+Wire Wire Line
+	1925 1375 2100 1375
+Text Label 2550 1750 2    50   ~ 0
+BIAS
+Text Label 3050 2850 3    50   ~ 0
+EN
+Text Label 1675 1075 2    50   ~ 0
+BIAS
+Text Label 1775 1075 0    50   ~ 0
+EN
+Wire Wire Line
+	1775 1075 1725 1075
+Wire Wire Line
+	1725 1075 1725 1175
+Connection ~ 1725 1075
+Wire Wire Line
+	1725 1075 1725 925 
+Text Label 1725 925  0    50   ~ 0
+VIN
+Wire Wire Line
+	1675 1075 1725 1075
+Text Label 2550 1850 2    50   ~ 0
+PGOOD
+Text HLabel 1600 4750 0    50   Input ~ 0
+VBATT
+Text HLabel 1600 4925 0    50   Input ~ 0
+GND
+Text HLabel 1625 5225 0    50   Input ~ 0
+CAP_SENSE
+Text Label 1600 4750 0    50   ~ 0
+VIN
+Text Label 1600 4925 0    50   ~ 0
+GND
+Text Label 1625 5225 0    50   ~ 0
+CAP_SENSE
+$Comp
+L Device:C C12
+U 1 1 60CF92B2
+P 8050 2300
+F 0 "C12" H 8165 2346 50  0000 L CNN
+F 1 "6800u" H 8165 2255 50  0000 L CNN
+F 2 "" H 8088 2150 50  0001 C CNN
+F 3 "~" H 8050 2300 50  0001 C CNN
+	1    8050 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2200 2    50   ~ 0
+48V
+Text Label 8050 2550 0    50   ~ 0
+GND
+Wire Wire Line
+	8050 2550 8050 2450
+Wire Wire Line
+	8050 2150 8050 2050
+Text Label 7400 2200 0    50   ~ 0
+CAP_HIGH
+Text Label 8050 2050 0    50   ~ 0
+CAP_HIGH
+$Comp
+L Device:R R14
+U 1 1 60D50A0F
+P 9375 2025
+F 0 "R14" H 9445 2071 50  0000 L CNN
+F 1 "10k" H 9445 1980 50  0000 L CNN
+F 2 "" V 9305 2025 50  0001 C CNN
+F 3 "~" H 9375 2025 50  0001 C CNN
+	1    9375 2025
+	1    0    0    -1  
+$EndComp
+Text Label 9375 1725 0    50   ~ 0
+CAP_HIGH
+Wire Wire Line
+	9375 1725 9375 1875
+Wire Wire Line
+	9375 2175 9375 2275
+Text Label 9375 2775 0    50   ~ 0
+GND
+Wire Wire Line
+	9375 2775 9375 2675
+Text Label 9075 2475 2    50   ~ 0
+CAP_DCHG
+$Comp
+L symbols:MIC4127YME-TR U2
+U 1 1 60D5BE96
+P 6425 3875
+F 0 "U2" H 7525 4263 60  0000 C CNN
+F 1 "MIC4127YME-TR" H 7525 4157 60  0000 C CNN
+F 2 "iteration1:MIC4127YME-TR" H 7525 4115 60  0001 C CNN
+F 3 "" H 6425 3875 60  0000 C CNN
+	1    6425 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:BSS138PW_115 Q2
+U 1 1 60D5FCA2
+P 9075 2475
+F 0 "Q2" H 9525 2625 60  0000 L CNN
+F 1 "BSS138PW_115" H 9575 2425 60  0000 L CNN
+F 2 "iteration1:BSS138PW_115" H 10020 2665 60  0001 C CNN
+F 3 "" H 9075 2475 60  0000 C CNN
+	1    9075 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:STL36DN6F7 Q1
+U 1 1 60D48FB6
+P 8000 5350
+F 0 "Q1" H 8500 5600 50  0000 L CNN
+F 1 "STL36DN6F7" H 8500 5500 50  0000 L CNN
+F 2 "iteration1:VDFN_5x6" H 7950 5450 50  0001 C CNN
+F 3 "~" H 7750 5350 50  0001 C CNN
+	1    8000 5350
+	1    0    0    -1  
+$EndComp
+Text Label 8625 4175 0    50   ~ 0
+VIN
+$Comp
+L Device:C_Small C14
+U 1 1 60D4BAD4
+P 9375 3925
+F 0 "C14" H 9467 3971 50  0000 L CNN
+F 1 "0.1u" H 9467 3880 50  0000 L CNN
+F 2 "" H 9375 3925 50  0001 C CNN
+F 3 "~" H 9375 3925 50  0001 C CNN
+	1    9375 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 60D4C32E
+P 9725 3925
+F 0 "C15" H 9817 3971 50  0000 L CNN
+F 1 "1u" H 9817 3880 50  0000 L CNN
+F 2 "" H 9725 3925 50  0001 C CNN
+F 3 "~" H 9725 3925 50  0001 C CNN
+	1    9725 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 60D4CA04
+P 9025 3925
+F 0 "C13" H 9117 3971 50  0000 L CNN
+F 1 "0.1u" H 9117 3880 50  0000 L CNN
+F 2 "" H 9025 3925 50  0001 C CNN
+F 3 "~" H 9025 3925 50  0001 C CNN
+	1    9025 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 3825 9375 3825
+Connection ~ 9375 3825
+Wire Wire Line
+	9375 3825 9725 3825
+Wire Wire Line
+	9025 4025 9375 4025
+Connection ~ 9375 4025
+Wire Wire Line
+	9375 4025 9725 4025
+Text Label 9375 3725 0    50   ~ 0
+VIN
+Wire Wire Line
+	9375 3725 9375 3825
+Text Label 9375 4225 0    50   ~ 0
+GND
+Wire Wire Line
+	9375 4025 9375 4225
+Text Label 6425 4075 2    50   ~ 0
+GND
+Text Label 8625 3875 0    50   ~ 0
+GND
+Text Label 8625 4075 0    50   ~ 0
+OUTA
+Text Label 8625 4275 0    50   ~ 0
+OUTB
+Text Label 7550 5350 2    50   ~ 0
+OUTA
+Text Label 8450 5350 0    50   ~ 0
+OUTB
+Text Label 8000 5700 0    50   ~ 0
+GND
+Wire Wire Line
+	7850 5550 8000 5550
+Wire Wire Line
+	8000 5550 8000 5700
+Connection ~ 8000 5550
+Wire Wire Line
+	8000 5550 8150 5550
+Text Label 7850 5050 0    50   ~ 0
+FET_A
+Wire Wire Line
+	7850 5050 7850 5150
+Text Label 8150 5050 0    50   ~ 0
+FET_B
+Wire Wire Line
+	8150 5050 8150 5150
+Text Label 6425 3975 2    50   ~ 0
+PYRO_A
+Text Label 6425 4175 2    50   ~ 0
+PYRO_B
+Text HLabel 1625 5600 0    50   Input ~ 0
+PYRO_A
+Text HLabel 1625 5750 0    50   Input ~ 0
+PYRO_B
+Text Label 1625 5600 0    50   ~ 0
+PYRO_A
+Text Label 1625 5750 0    50   ~ 0
+PYRO_B
+$Comp
+L Connector:Screw_Terminal_01x01 J2
+U 1 1 60D67510
+P 9725 4625
+F 0 "J2" H 9805 4667 50  0000 L CNN
+F 1 "FET_A_P" H 9805 4576 50  0000 L CNN
+F 2 "" H 9725 4625 50  0001 C CNN
+F 3 "~" H 9725 4625 50  0001 C CNN
+	1    9725 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J3
+U 1 1 60D6902C
+P 9725 4900
+F 0 "J3" H 9805 4942 50  0000 L CNN
+F 1 "FET_A_N" H 9805 4851 50  0000 L CNN
+F 2 "" H 9725 4900 50  0001 C CNN
+F 3 "~" H 9725 4900 50  0001 C CNN
+	1    9725 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J4
+U 1 1 60D695B2
+P 9725 5175
+F 0 "J4" H 9805 5217 50  0000 L CNN
+F 1 "FET_B_P" H 9805 5126 50  0000 L CNN
+F 2 "" H 9725 5175 50  0001 C CNN
+F 3 "~" H 9725 5175 50  0001 C CNN
+	1    9725 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J5
+U 1 1 60D69B42
+P 9725 5450
+F 0 "J5" H 9805 5492 50  0000 L CNN
+F 1 "FET_B_N" H 9805 5401 50  0000 L CNN
+F 2 "" H 9725 5450 50  0001 C CNN
+F 3 "~" H 9725 5450 50  0001 C CNN
+	1    9725 5450
+	1    0    0    -1  
+$EndComp
+Text Label 9525 4900 2    50   ~ 0
+FET_A
+Text Label 9525 5450 2    50   ~ 0
+FET_B
+Text Label 9525 4625 2    50   ~ 0
+CAP_HIGH
+Text Label 9525 5175 2    50   ~ 0
+CAP_HIGH
+Text HLabel 1625 5400 0    50   Input ~ 0
+CAP_DCHG
+Text Label 1625 5400 0    50   ~ 0
+CAP_DCHG
+Text Label 1625 5950 0    50   ~ 0
+PY_SENSE_A
+Text Label 1625 6150 0    50   ~ 0
+PY_SENSE_B
+Text HLabel 1625 5950 0    50   Input ~ 0
+PY_SENSE_A
+Text HLabel 1625 6150 0    50   Input ~ 0
+PY_SENSE_B
+$Comp
+L Device:R_Small R11
+U 1 1 60D5D646
+P 6650 5150
+F 0 "R11" H 6709 5196 50  0000 L CNN
+F 1 "120k" H 6709 5105 50  0000 L CNN
+F 2 "" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 60D5DDFA
+P 6650 5525
+F 0 "R12" H 6709 5571 50  0000 L CNN
+F 1 "8.2k" H 6709 5480 50  0000 L CNN
+F 2 "" H 6650 5525 50  0001 C CNN
+F 3 "~" H 6650 5525 50  0001 C CNN
+	1    6650 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5250 6650 5350
+Text Label 6650 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	6650 5800 6650 5625
+Text Label 6650 4975 0    50   ~ 0
+FET_B
+Wire Wire Line
+	6650 4975 6650 5050
+Text Label 6725 5350 0    50   ~ 0
+PY_SENSE_B
+Wire Wire Line
+	6725 5350 6650 5350
+Connection ~ 6650 5350
+Wire Wire Line
+	6650 5350 6650 5425
+Wire Wire Line
+	6000 5800 6000 5625
+Text Label 6000 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	6000 5350 6000 5425
+Connection ~ 6000 5350
+Wire Wire Line
+	6075 5350 6000 5350
+Text Label 6075 5350 0    50   ~ 0
+PY_SENSE_A
+Wire Wire Line
+	6000 4975 6000 5050
+Text Label 6000 4975 0    50   ~ 0
+FET_A
+Wire Wire Line
+	6000 5250 6000 5350
+$Comp
+L Device:R_Small R10
+U 1 1 60D5E75C
+P 6000 5525
+F 0 "R10" H 6059 5571 50  0000 L CNN
+F 1 "8.2k" H 6059 5480 50  0000 L CNN
+F 2 "" H 6000 5525 50  0001 C CNN
+F 3 "~" H 6000 5525 50  0001 C CNN
+	1    6000 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 60D5E2C8
+P 6000 5150
+F 0 "R9" H 6059 5196 50  0000 L CNN
+F 1 "120k" H 6059 5105 50  0000 L CNN
+F 2 "" H 6000 5150 50  0001 C CNN
+F 3 "~" H 6000 5150 50  0001 C CNN
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60D8653B
+P 2150 2850
+AR Path="/60C5E9F6/60D8653B" Ref="R?"  Part="1" 
+AR Path="/60C5ED9B/60D8653B" Ref="R?"  Part="1" 
+AR Path="/60E9633F/60D8653B" Ref="R3"  Part="1" 
+F 0 "R3" H 2209 2896 50  0000 L CNN
+F 1 "665k" H 2209 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2150 2850 50  0001 C CNN
+F 3 "~" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+Text Label 2150 2750 0    50   ~ 0
+VIN
+Text Label 2150 3050 0    50   ~ 0
+EN
+Wire Wire Line
+	2150 2950 2150 3050
+$Comp
+L Device:R_Small R?
+U 1 1 60D86544
+P 2150 3300
+AR Path="/60C5E9F6/60D86544" Ref="R?"  Part="1" 
+AR Path="/60C5ED9B/60D86544" Ref="R?"  Part="1" 
+AR Path="/60E9633F/60D86544" Ref="R4"  Part="1" 
+F 0 "R4" H 2209 3346 50  0000 L CNN
+F 1 "200k" H 2209 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2150 3300 50  0001 C CNN
+F 3 "~" H 2150 3300 50  0001 C CNN
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3500 0    50   ~ 0
+GND
+Wire Wire Line
+	2150 3400 2150 3500
+Text Label 2150 3200 0    50   ~ 0
+EN
+$Comp
+L symbols:PFC10 R13
+U 1 1 60D8DE73
+P 6900 2200
+F 0 "R13" H 6900 2567 50  0000 C CNN
+F 1 "PFC10_100R" H 6900 2476 50  0000 C CNN
+F 2 "iteration1:RES_PFC10" H 6675 1800 50  0001 L BNN
+F 3 "" H 6900 2200 50  0001 L BNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2400 0    50   ~ 0
+GND
+Wire Wire Line
+	5250 5800 5250 5625
+Text Label 5250 5800 0    50   ~ 0
+GND
+Wire Wire Line
+	5250 5350 5250 5425
+Connection ~ 5250 5350
+Wire Wire Line
+	5325 5350 5250 5350
+Text Label 5325 5350 0    50   ~ 0
+CAP_SENSE
+Wire Wire Line
+	5250 4975 5250 5050
+Text Label 5250 4975 0    50   ~ 0
+CAP_HIGH
+Wire Wire Line
+	5250 5250 5250 5350
+$Comp
+L Device:R_Small R8
+U 1 1 60E051D9
+P 5250 5525
+F 0 "R8" H 5309 5571 50  0000 L CNN
+F 1 "8.2k" H 5309 5480 50  0000 L CNN
+F 2 "" H 5250 5525 50  0001 C CNN
+F 3 "~" H 5250 5525 50  0001 C CNN
+	1    5250 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 60E051DF
+P 5250 5150
+F 0 "R7" H 5309 5196 50  0000 L CNN
+F 1 "120k" H 5309 5105 50  0000 L CNN
+F 2 "" H 5250 5150 50  0001 C CNN
+F 3 "~" H 5250 5150 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

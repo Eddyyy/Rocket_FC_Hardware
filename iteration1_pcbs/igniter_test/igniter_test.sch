@@ -1,4 +1,170 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy4.0 U1
+U 1 1 60EC116F
+P 4125 2700
+F 0 "U1" H 4125 4315 50  0000 C CNN
+F 1 "Teensy4.0" H 4125 4224 50  0000 C CNN
+F 2 "teensy:Teensy40" H 3725 2900 50  0001 C CNN
+F 3 "" H 3725 2900 50  0001 C CNN
+	1    4125 2700
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7775 1575 2325 2000
+U 60E9633F
+F0 "igniter_actuator" 50
+F1 "igniter_actuator.sch" 50
+F2 "VBATT" I L 7775 1875 50 
+F3 "GND" I L 7775 2050 50 
+F4 "CAP_SENSE" I L 7775 2925 50 
+F5 "PYRO_A" I L 7775 2375 50 
+F6 "PYRO_B" I L 7775 2500 50 
+F7 "CAP_DCHG" I L 7775 2650 50 
+F8 "PY_SENSE_A" I L 7775 3075 50 
+F9 "PY_SENSE_B" I L 7775 3225 50 
+$EndSheet
+$Comp
+L power:GND #PWR01
+U 1 1 60EC7A63
+P 5500 3750
+F 0 "#PWR01" H 5500 3500 50  0001 C CNN
+F 1 "GND" H 5505 3577 50  0000 C CNN
+F 2 "" H 5500 3750 50  0001 C CNN
+F 3 "" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3750 5225 3750
+$Comp
+L power:GND #PWR03
+U 1 1 60EC844E
+P 7350 2050
+F 0 "#PWR03" H 7350 1800 50  0001 C CNN
+F 1 "GND" H 7355 1877 50  0000 C CNN
+F 2 "" H 7350 2050 50  0001 C CNN
+F 3 "" H 7350 2050 50  0001 C CNN
+	1    7350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2050 7775 2050
+$Comp
+L power:VCC #PWR02
+U 1 1 60EC8802
+P 7350 1875
+F 0 "#PWR02" H 7350 1725 50  0001 C CNN
+F 1 "VCC" H 7365 2048 50  0000 C CNN
+F 2 "" H 7350 1875 50  0001 C CNN
+F 3 "" H 7350 1875 50  0001 C CNN
+	1    7350 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1875 7775 1875
+Text Label 7700 2375 2    50   ~ 0
+PYRO_A
+Text Label 7700 2500 2    50   ~ 0
+PYRO_B
+Text Label 7700 2650 2    50   ~ 0
+CAP_DCHG
+Text Label 7700 2925 2    50   ~ 0
+CAP_SENSE
+Text Label 7700 3075 2    50   ~ 0
+PY_SENSE_A
+Text Label 7700 3225 2    50   ~ 0
+PY_SENSE_B
+Wire Wire Line
+	7700 3225 7775 3225
+Wire Wire Line
+	7700 3075 7775 3075
+Wire Wire Line
+	7700 2925 7775 2925
+Wire Wire Line
+	7700 2650 7775 2650
+Wire Wire Line
+	7700 2500 7775 2500
+Wire Wire Line
+	7700 2375 7775 2375
+Text Label 3025 3950 2    50   ~ 0
+PY_SENSE_A
+Text Label 3025 4050 2    50   ~ 0
+PY_SENSE_B
+Text Label 5225 4050 0    50   ~ 0
+CAP_SENSE
+Text Label 3025 1850 2    50   ~ 0
+PYRO_A
+Text Label 3025 1950 2    50   ~ 0
+PYRO_B
+Text Label 3025 2050 2    50   ~ 0
+CAP_DCHG
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60ECEC2D
+P 9400 4025
+F 0 "J1" H 9480 4017 50  0000 L CNN
+F 1 "Conn_01x02" H 9480 3926 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 9400 4025 50  0001 C CNN
+F 3 "~" H 9400 4025 50  0001 C CNN
+	1    9400 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH1
+U 1 1 60ECFE63
+P 8300 4325
+F 0 "TH1" H 8397 4371 50  0000 L CNN
+F 1 "SL05 4R003" H 8397 4280 50  0000 L CNN
+F 2 "" H 8300 4375 50  0001 C CNN
+F 3 "~" H 8300 4375 50  0001 C CNN
+	1    8300 4325
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4025 2    50   ~ 0
+VBAT
+$Comp
+L power:GND #PWR05
+U 1 1 60ED1129
+P 9075 4125
+F 0 "#PWR05" H 9075 3875 50  0001 C CNN
+F 1 "GND" H 9080 3952 50  0000 C CNN
+F 2 "" H 9075 4125 50  0001 C CNN
+F 3 "" H 9075 4125 50  0001 C CNN
+	1    9075 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 4125 9200 4125
+$Comp
+L power:VCC #PWR04
+U 1 1 60ED1B46
+P 8300 4025
+F 0 "#PWR04" H 8300 3875 50  0001 C CNN
+F 1 "VCC" H 8315 4198 50  0000 C CNN
+F 2 "" H 8300 4025 50  0001 C CNN
+F 3 "" H 8300 4025 50  0001 C CNN
+	1    8300 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4025 8300 4175
+Text Label 8300 4675 0    50   ~ 0
+VBAT
+Wire Wire Line
+	8300 4675 8300 4475
 $EndSCHEMATC
