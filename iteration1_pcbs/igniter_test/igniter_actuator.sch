@@ -806,4 +806,8 @@ F 3 "" H 2000 4750 50  0001 C CNN
 	1    2000 4750
 	1    0    0    -1  
 $EndComp
+Text Label 1825 1075 0    50   ~ 0
+EN
+Wire Wire Line
+	1775 1075 1725 1075
 $EndSCHEMATC
