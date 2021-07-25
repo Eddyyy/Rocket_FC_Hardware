@@ -1,4 +1,4 @@
-update=14/07/2021 1:20:22 PM
+update=18/07/2021 2:51:49 PM
 version=1
 last_client=kicad
 [general]
@@ -241,6 +241,17 @@ Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Thicc
+Clearance=0.4
+TrackWidth=0.75
+ViaDiameter=1
+ViaDrill=0.5
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
