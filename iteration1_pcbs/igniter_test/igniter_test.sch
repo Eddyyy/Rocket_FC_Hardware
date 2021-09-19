@@ -167,4 +167,92 @@ Text Label 8300 4675 0    50   ~ 0
 VBAT
 Wire Wire Line
 	8300 4675 8300 4475
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 611B3938
+P 9600 4550
+F 0 "H1" H 9700 4599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 4508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9600 4550 50  0001 C CNN
+F 3 "~" H 9600 4550 50  0001 C CNN
+	1    9600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 611B3F4C
+P 9600 5000
+F 0 "H2" H 9700 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 4958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9600 5000 50  0001 C CNN
+F 3 "~" H 9600 5000 50  0001 C CNN
+	1    9600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 611B4927
+P 9600 5475
+F 0 "H3" H 9700 5524 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 5433 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9600 5475 50  0001 C CNN
+F 3 "~" H 9600 5475 50  0001 C CNN
+	1    9600 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 611B63D1
+P 9600 5950
+F 0 "H4" H 9700 5999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 5908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9600 5950 50  0001 C CNN
+F 3 "~" H 9600 5950 50  0001 C CNN
+	1    9600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 611B7352
+P 9600 4650
+F 0 "#PWR06" H 9600 4400 50  0001 C CNN
+F 1 "GND" H 9605 4477 50  0000 C CNN
+F 2 "" H 9600 4650 50  0001 C CNN
+F 3 "" H 9600 4650 50  0001 C CNN
+	1    9600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 611B759D
+P 9600 5100
+F 0 "#PWR07" H 9600 4850 50  0001 C CNN
+F 1 "GND" H 9605 4927 50  0000 C CNN
+F 2 "" H 9600 5100 50  0001 C CNN
+F 3 "" H 9600 5100 50  0001 C CNN
+	1    9600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 611B77B0
+P 9600 5575
+F 0 "#PWR08" H 9600 5325 50  0001 C CNN
+F 1 "GND" H 9605 5402 50  0000 C CNN
+F 2 "" H 9600 5575 50  0001 C CNN
+F 3 "" H 9600 5575 50  0001 C CNN
+	1    9600 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 611B79F1
+P 9600 6050
+F 0 "#PWR09" H 9600 5800 50  0001 C CNN
+F 1 "GND" H 9605 5877 50  0000 C CNN
+F 2 "" H 9600 6050 50  0001 C CNN
+F 3 "" H 9600 6050 50  0001 C CNN
+	1    9600 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
